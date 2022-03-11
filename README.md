@@ -1,7 +1,7 @@
 # Count Down
 
 ## Introduction
-Are you having a problem to not get bored at work? And the only thing you want while working is to go home. Let the count down c++ console application helps you with that. The application was designed with that and only that purpose. For any purposes beside that, please don't use it. 
+Are you having a problem to not get bored at work? And the only thing you want while working is to go home. Let the count down c++ console application helps you with that. The application was designed with that and only that purpose. For any purposes beside, please don't use it. 
 
 ## Installation
 - Download the source code and put it anywhere you want on your device.
