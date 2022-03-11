@@ -26,10 +26,10 @@ std::string operator*(std::string a, unsigned int b) {
 
 std::vector<int> splitString(std::string str)
 {
-	std::vector<int> time;
+    std::vector<int> time;
 
-	std::istringstream split(str);
-	std::string tmp;
+    std::istringstream split(str);
+    std::string tmp;
     
     while(std::getline(split, tmp, ':'))
     {
