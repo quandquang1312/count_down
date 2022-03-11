@@ -4,12 +4,12 @@
 
 std::string addZero(int x)
 {
-	return x < 10 ? "0" + std::to_string(x) : std::to_string(x);
+    return x < 10 ? "0" + std::to_string(x) : std::to_string(x);
 }
 
 void lower(std::string &str)
 {
-	auto lower = [](char &c) {c = ::tolower(c); };
+    auto lower = [](char &c) {c = ::tolower(c); };
     std::for_each(str.begin(), str.end(), lower);
 }
 
