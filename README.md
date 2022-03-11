@@ -5,7 +5,7 @@ Are you having a problem to not get bored at work? And the only thing you want w
 
 ## Installation
 - Download the source code and put it anywhere you want on your device.
-- Open that directory then compile and run the program. I use gcc compiler, you can use any compiler you have. Or you can just run ``m.exe`` file and that's no need to compile first.
+- Open that directory then compile and run the program. I use gcc compiler, you can use any compiler you have. 
     - **compile**
     ``
     g++ main.cpp -pthread -o m 
@@ -14,16 +14,19 @@ Are you having a problem to not get bored at work? And the only thing you want w
     ``
     ./m
     ``
+ Or you can just run ``m.exe`` file and that's no need to compile first.
 
 ## User guide
 
 SET LEFT TIME (hh:mm:ss): This is where you set the time you go home. The application will output the countdown time to go home every seconds.  **Please follow the input format**
+
 **example**
 ``
 17:28:00
 ``
 
 SET LUNCH TIME (hh:mm:ss): This is where you set the time you have lunch. The system will automatically announce for every minutes when it's less than 30 minutes to the lunch time, 
+
 **example**
 ``
 12:13:00
