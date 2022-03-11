@@ -7,13 +7,13 @@ Are you having a problem to not get bored at work? And the only thing you want w
 - Download the source code and put it anywhere you want on your device.
 - Open that directory then compile and run the program. I use gcc compiler, you can use any compiler you have. Or you can just run ``m.exe`` file and that's no need to compile first.
     - **compile**
-``
-g++ main.cpp -pthread -o m 
-``
+    ``
+    g++ main.cpp -pthread -o m 
+    ``
     - **run**
-``
-./m
-``
+    ``
+    ./m
+    ``
 
 ## User guide
 
@@ -31,10 +31,9 @@ SET LUNCH TIME (hh:mm:ss): This is where you set the time you have lunch. The sy
 
 You also have an option to output the count down to lunch time by typing "lunch" on the screen. The screen will show you how long to the lunch time (in minutes)
 
+Please reference to the image below to see how it works. 
 
-
-
-Please watch the video below to see how it works. 
+![](imgs/demo.png)
 
 
 ## Testing
