@@ -52,7 +52,7 @@ The program has some functions need to be tested. I already wrote some use cases
 **compile**
 
 ``
-g++ test_time.cpp -lgtest -lpthread
+g++ testing.cpp -lgtest -lpthread
 ``
 
 **run**
