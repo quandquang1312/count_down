@@ -13,7 +13,7 @@ void lunchTimeAnnounce(std::vector<int> time_v)
 	int min = time_v[1];
 	int sec = time_v[2];
 
-	::sec_left = ((hour * 60) + min) *60 + sec;
+	::sec_left = ((hour * 60) + min) * 60 + sec;
 
 	while (::sec_left--)
 	{
