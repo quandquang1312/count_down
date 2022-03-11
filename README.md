@@ -14,6 +14,7 @@ Are you having a problem to not get bored at work? And the only thing you want w
     ``
     ./m
     ``
+    
  Or you can just run ``m.exe`` file and that's no need to compile first.
 
 ## User guide
