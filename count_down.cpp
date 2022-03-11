@@ -15,7 +15,7 @@ void lunchTimeAnnounce(std::vector<int> time_v)
 
 	::sec_left = ((hour * 60) + min) *60 + sec;
 
-	while (sec_left--)
+	while (::sec_left--)
 	{
 		sleep(1);
 		if (::sec_left <= (30*60) && ::sec_left % 60 == 0)
